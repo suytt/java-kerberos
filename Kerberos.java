@@ -48,7 +48,7 @@ public class Kerberos
 	{
 		try
 		{
-			return new URL("b64://YQ==");
+			new URL("b64://YQ==");
 		}
 		catch (final MalformedURLException e)
 		{
